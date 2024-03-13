@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Подключение Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>IKEO</title>
+</head>
+<body>
+  <header>
+    <h1 class="text-center mt-5">Производство мебели IKEO</h1>
+    <hr>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Производство мебели IKEO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#main">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="catalog.html">Каталог</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="us.html">О нас</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="main" class="container">
+    <h2 class="mt-5">Добро пожаловать на наш сайт!</h2>
+    <p>Создавая идеальное пространство, каждая деталь имеет значение. Наша мебель, ручной работы и изготовленная из лучших материалов, придаст вашему дому или офису уникальный стиль и комфорт. Откройте для себя новое измерение комфорта и элегантности с нашей эксклюзивной коллекцией мебели.</p>
+    <hr>
+
+    <!-- Новый раздел с преимуществами -->
+    <section>
+    <h3 class="mt-5">Наши преимущества</h3>
+    <ul class="list-group">
+      <li class="list-group-item">Высокое качество материалов</li>
+      <li class="list-group-item">Ручная работа</li>
+      <li class="list-group-item">Индивидуальный дизайн</li>
+      <li class="list-group-item">Доступные цены</li>
+    </ul>
+  </section>
+
+    <!-- Новый раздел с галереей лучших работ -->
+    <section>
+   <h3 class="mt-5">Лучшие работы</h3>
+   <div class="row">
+     <div class="col-md-4">
+       <img src="https://mkmgroup.ru/d/sero_belye_gostinye_2.jpg" class="img-fluid">
+     </div>
+     <div class="col-md-4">
+       <img src="https://korpus-a.ru/sites/default/files/images/media/g086.jpg" class="img-fluid">
+     </div>
+     <div class="col-md-4">
+       <img src="https://estatemebel.ru/wp-content/uploads/5/0/4/504e28a4d91934f333cd34c2ad5ac447.jpeg" class="img-fluid">
+     </div>
+     <!-- Добавьте остальные изображения здесь -->
+   </div>
+   <div class="gallery-controls mt-3">
+     <button class="btn btn-primary prev-btn">Назад</button>
+     <button class="btn btn-primary next-btn">Далее</button>
+   </div>
+ </section>
+
+  <!-- Подключаем JavaScript-код для галереи -->
+  <script src="gallery.js"></script>
+</body>
+</html>
